@@ -3,64 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Business promotion</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">
-          <img src="./images/logo.png" alt="logo" />Product
-        </a>
-        <ul>
-          <li><a href="./product.html">Product</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="./resources.html">Resources</a></li>
+    <header class="header">
+      <div class="container header_container">
+        <nav class="navigation">
+          <a class="logo-link" href="./index.html">
+            <img
+              class="logo"
+              width="39"
+              height="36"
+              src="./images/logo.png"
+              alt="logo"
+            />Product</a
+          >
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a href="./product.html" class="navigation-link">Product</a>
+            </li>
+            <li class="navigation-item">
+              <a href="./pricing.html" class="navigation-link">Pricing</a>
+            </li>
+            <li class="navigation-item">
+              <a href="./customers.html" class="navigation-link">Customers</a>
+            </li>
+            <li class="navigation-item">
+              <a href="./resources.html" class="navigation-link">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="button-list">
+          <li class="button-item">
+            <button type="button" class="navigation-button">Sign In</button>
+          </li>
+          <li class="button-item">
+            <button type="button" class="navigation-button">Sign Up</button>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section>
-        <h1>Work at the speed of thought</h1>
-        <p>
-          Tools, tutorials, design and innovation experts, all in one place! The
-          most intuitive way to imagine your next user experience.
-        </p>
-        <ul>
-          <li>
-            <button type="button">Get started</button>
-          </li>
-          <li>
-            <button type="button">Watch the Video</button>
-          </li>
-        </ul>
-        <img src="./images/hero-img.png" alt="hero" />
+      <section class="hero">
+        <div class="container hero_container">
+          <div class="hero_box">
+            <h1 class="hero-title">Work at the speed of thought</h1>
+            <p class="hero-subtitle">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <ul class="hero-list">
+              <li class="hero-item">
+                <button type="button" class="hero-button">Get started</button>
+              </li>
+              <li class="hero-item">
+                <button type="button" class="hero-button">
+                  Watch the Video
+                </button>
+              </li>
+            </ul>
+          </div>
+          <img src="./images/hero-img.png" alt="hero" class="hero-image" />
+        </div>
       </section>
-      <section>
-        <h2>Product was Built Specifically for You</h2>
-        <ul>
-          <li>
-            <h3>First click tests</h3>
-            <p>While most people enjoy casino gambling.</p>
-          </li>
-          <li>
-            <h3>Design surveys</h3>
-            <p>Sports betting, lottery and bingo playing for the fun</p>
-          </li>
-          <li>
-            <h3>Preference tests</h3>
-            <p>The Myspace page defines the individual.</p>
-          </li>
-          <li>
-            <h3>Five second tests</h3>
-            <p>Personal choices and the overall personality of the person.</p>
-          </li>
-        </ul>
-        <button type="button">Sign up now</button>
+      <section class="product">
+        <div class="container product_container">
+          <h2 class="product-title">Product was Built Specifically for You</h2>
+          <ul class="product-list">
+            <li class="product-item">
+              <h3 class="product-item-title">First click tests</h3>
+              <p class="product-item-subtitle">
+                While most people enjoy casino gambling.
+              </p>
+            </li>
+            <li class="product-item">
+              <h3 class="product-item-title">Design surveys</h3>
+              <p class="product-item-subtitle">
+                Sports betting, lottery and bingo playing for the fun
+              </p>
+            </li>
+            <li class="product-item">
+              <h3 class="product-item-title">Preference tests</h3>
+              <p class="product-item-subtitle">
+                The Myspace page defines the individual.
+              </p>
+            </li>
+            <li class="product-item">
+              <h3 class="product-item-title">Five second tests</h3>
+              <p class="product-item-subtitle">
+                Personal choices and the overall personality of the person.
+              </p>
+            </li>
+          </ul>
+          <button type="button" class="product-button">Sign up now</button>
+        </div>
       </section>
       <section>
         <h2>Effortless Validation for Management</h2>

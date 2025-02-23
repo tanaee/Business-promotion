@@ -356,6 +356,7 @@ margin-bottom: 20px;
 
 .support-item {
     display: flex;
+    align-items: center;
 }
 
 .support-icon_container{

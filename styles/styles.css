@@ -1,10 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: Poppins, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p{
-    margin: 0;
-    padding: 0;
+    color: #22343d;
 }
 
 a{
@@ -14,8 +18,6 @@ a{
 
 ul, ol{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 button{
@@ -50,7 +52,8 @@ margin-bottom: 20px;
     font-weight: 700;
     font-size: 30px;
     line-height: 1;
-    margin-right:237px;
+    margin-right: 237px;
+    padding: 26px 0;
 }
 
 .logo {
@@ -60,7 +63,7 @@ margin-bottom: 20px;
 .navigation-list {
     display: flex;
     gap: 30px;
-    margin-right: 73px;
+    margin-right: 80px;
 }
 
 .navigation-item {}
@@ -68,6 +71,10 @@ margin-bottom: 20px;
 .navigation-link {
     display: flex;
     padding: 26px 0;
+}
+
+.active{
+    font-weight: 600px;
 }
 
 .button-list {
@@ -137,25 +144,34 @@ margin-bottom: 20px;
 .hero-item {}
 
 .hero-button {
-    border: none;
-    font-size: 16px;
 }
 
-.hero-item:first-child .hero-button{
+.hero-button-start{
     min-width: 178px;
     height: 53px;
     font-weight: 700;
     border-radius: 4px;
     text-align: center;
     background-color: #02897A;
+    border: none;
+    font-size: 16px;
     color: #fff;
 }
 
-.hero-item:last-child .hero-button{
+.hero-button-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 600;
     text-decoration: underline;
+    border: none;
+    font-size: 16px;
     color: #02897a;
     background-color: #fff;
+}
+
+.play-icon{
+    margin-right: 8px;
 }
 
 .product {
@@ -180,8 +196,35 @@ margin-bottom: 20px;
     gap: 30px;
 }
 
+.icon_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #fff;
+    width: 54px;
+    height: 54px;
+    border-radius: 19px;
+    margin-bottom: 26px;
+}
+
+.green{
+    background-color: #02897a;
+}
+
+.blue{
+    background: #4d8dff;
+}
+
+.purple{
+    background: #740a76;
+}
+
+.orange{
+    background: #f03e3d;
+}
+
 .product-item {
-    width: calc((100% - 90px) /4);
+    width: calc((100% - 90px) / 4);
     margin-bottom: 50px;
 }
 

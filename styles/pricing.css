@@ -272,6 +272,109 @@ button {
     margin: 0 auto;
 }
 
+.enterprise {
+    background-image: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+    margin-bottom: 294px;
+}
+
+.enterprise_container {
+    padding: 53px 0;
+}
+
+.enterprise-name {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.enterprise-title {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.enterprise-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+.enterprise-button {
+    border: none;
+    border-radius: 8px;
+    width: 224px;
+    height: 44px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background-color: #02897a;
+    margin: 0 auto;
+}
+
+.effect {
+    margin-bottom: 100px;
+}
+
+.container {}
+
+.effect_container {}
+
+.effect-title {
+    font-weight: 700;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 71px;
+}
+
+.effect_box {
+    display: flex;
+    gap: 60px;
+}
+
+.effect-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.effect-item {
+}
+
+.effect-title_box{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+.effect-item-icon_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f4f5f7;
+}
+
+.effect-item-icon {}
+
+.effect-item-title {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+.effect-item-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
 .promotion {
     margin-bottom: 100px;
 }

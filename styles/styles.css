@@ -73,8 +73,6 @@ button {
     margin-right: 80px;
 }
 
-.navigation-item {}
-
 .navigation-link {
     display: flex;
     padding: 26px 0;
@@ -88,8 +86,6 @@ button {
     display: flex;
     gap: 21px;
 }
-
-.button-item {}
 
 .navigation-button {
     min-width: 105px;
@@ -146,11 +142,6 @@ button {
     display: flex;
     gap: 30px;
     align-items: baseline;
-}
-
-.hero-item {}
-
-.hero-button {
 }
 
 .hero-button-start{
@@ -461,10 +452,6 @@ button {
     margin-bottom: 100px;
 }
 
-.expert_container {
-
-}
-
 .expert-title {
     font-weight: 700;
     font-size: 32px;
@@ -525,8 +512,6 @@ button {
 .strategies {
     margin-bottom: 171px;
 }
-
-.strategies_container {}
 
 .strategies-title {
     font-weight: 700;
@@ -703,8 +688,6 @@ button {
     margin-bottom: 30px;
 }
 
-.price-item-item {}
-
 .price-item-item-title {
     font-weight: 500;
         font-size: 16px;
@@ -728,8 +711,6 @@ button {
 .feedback {
     margin-bottom: 100px;
 }
-
-.feedback_container {}
 
 .feedback-title {
     font-weight: 700;
@@ -850,10 +831,6 @@ button {
     margin-bottom: 16px;
 }
 
-.logo_container {
-    
-}
-
 .logo-link-footer {
     display: flex;
     align-items: center;
@@ -869,8 +846,6 @@ button {
 .logo-footer {
     margin-right: 16px;
 }
-
-.social-media_container {}
 
 .social-media-list{
     display: flex;
@@ -915,8 +890,6 @@ button {
     margin-bottom: 8px;
 }
 
-.footer-list {}
-
 .footer-item {
     min-width: 111px;
 }
@@ -928,10 +901,6 @@ button {
     color: #22343d;
 }
 
-.input_container{
-
-}
-
 .input-title{
     max-width: 296px;
     font-weight: 500;
@@ -941,13 +910,13 @@ button {
     margin-bottom: 30px;
 }
 
-.footer-form {}
-
 .footer-input {
     width: 325px;
     height: 48px;
     border: 1px solid #BCD0E5;
     border-radius: 4px;
+    color: #02897a;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
     padding-left: 12px;
     margin-bottom: 25px;
 }

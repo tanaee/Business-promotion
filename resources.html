@@ -162,7 +162,12 @@
               </div>
             </li>
           </ul>
-          <button type="button" class="stories-button">More stories</button>
+          <button type="button" class="stories-button">
+            More stories
+            <svg class="stories-icon" width="20" height="20">
+              <use href="./images/icons.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
         </div>
       </section>
       <section class="contact">
@@ -220,12 +225,11 @@
               placeholder="Your Email"
               class="form-email"
             />
-            <input
-              type="text"
+            <textarea
               name="your_message"
               placeholder="Your Message"
               class="form-message"
-            />
+            ></textarea>
             <button type="submit" class="form-button">Send</button>
           </form>
         </div>

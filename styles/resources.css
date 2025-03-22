@@ -73,8 +73,6 @@ button {
     margin-right: 80px;
 }
 
-.navigation-item {}
-
 .navigation-link {
     display: flex;
     padding: 26px 0;
@@ -88,8 +86,6 @@ button {
     display: flex;
     gap: 21px;
 }
-
-.button-item {}
 
 .navigation-button {
     min-width: 105px;
@@ -119,8 +115,6 @@ button {
     display: flex;
     gap: 46px;
 }
-
-.hero_box {}
 
 .hero-title {
     width: 380px;
@@ -182,8 +176,6 @@ button {
     margin-bottom: 170px;
 }
 
-.stories_container {}
-
 .stories-title {
     text-align: center;
     font-weight: 700;
@@ -243,6 +235,9 @@ button {
 }
 
 .stories-button{
+    display: flex;
+    align-items: center;
+    gap: 8px;
     width: 140px;
     height: 26px;
     font-weight: 500;
@@ -252,6 +247,10 @@ button {
     border: none;
     color: #22343d;
     margin: 0 auto;
+}
+
+.stories-icon{
+    fill: #2e3a59;
 }
 
 .contact {
@@ -362,6 +361,7 @@ iframe{
     padding: 23px 20px;
     width: 768px;
     height: 193px;
+    resize: none;
     background-color: #f5f5f5;
 }
 
@@ -397,8 +397,6 @@ iframe{
     margin-bottom: 16px;
 }
 
-.logo_container {}
-
 .logo-link-footer {
     display: flex;
     align-items: center;
@@ -414,8 +412,6 @@ iframe{
 .logo-footer {
     margin-right: 16px;
 }
-
-.social-media_container {}
 
 .social-media-list {
     display: flex;
@@ -460,8 +456,6 @@ iframe{
     margin-bottom: 8px;
 }
 
-.footer-list {}
-
 .footer-item {
     min-width: 111px;
 }
@@ -473,8 +467,6 @@ iframe{
     color: #22343d;
 }
 
-.input_container {}
-
 .input-title {
     max-width: 296px;
     font-weight: 500;
@@ -484,13 +476,13 @@ iframe{
     margin-bottom: 30px;
 }
 
-.footer-form {}
-
 .footer-input {
     width: 325px;
     height: 48px;
     border: 1px solid #BCD0E5;
     border-radius: 4px;
+    color: #02897a;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
     padding-left: 12px;
     margin-bottom: 25px;
 }

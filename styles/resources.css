@@ -481,6 +481,7 @@ iframe{
     height: 48px;
     border: 1px solid #BCD0E5;
     border-radius: 4px;
+    outline: none;
     color: #02897a;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
     padding-left: 12px;
